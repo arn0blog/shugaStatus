@@ -168,7 +168,8 @@ const ShugaStatus = new shugaStatus();
 
 // Manipulate data here. Object with arrays of API tokens.
 const data = {
-    "主页&博客": ["m784950028-ffa777e0edd5be4799a497eb", "m784376262-d477a6585c004a11e7bbd3d3"],
+    "主页": ["m784950028-ffa777e0edd5be4799a497eb"],
+    "博客": ["m784376262-d477a6585c004a11e7bbd3d3"],
 }
 
 document.body.addEventListener("load", ShugaStatus.init());
